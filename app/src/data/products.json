@@ -1,0 +1,251 @@
+{
+    "electronics": [
+        {
+            "title": "Prestige Electric Kettle PKOSS 1.5, 1500 W - Silver, Stainless Steel, 1.5 L",
+            "subtitle": "Prestige",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40317740_3-prestige-stainless-steel-kettle-pkoss-silver-black.jpg",
+            "mrp": 1445,
+            "price": 649,
+            "discount": "55%",
+            "quantity": "(₹432.67 / L)"
+        },
+        {
+            "title": "Duracell Ultra Alkaline AA Batteries, 4 pcs",
+            "subtitle": "Duracell",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/240100_10-duracell-ultra-alkaline-battery-aa.jpg",
+            "mrp": 190,
+            "price": 160,
+            "discount": "16%",
+            "quantity": "(₹40 / pc)"
+        },
+        {
+            "title": "Lifelong Power Pro 500-Watt Mixer Grinder - With 3 Jars",
+            "subtitle": "Lifelong",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40321648_1-lifelong-power-pro-500-watt-mixer-grinder-with-3-jars-liquidizing-wet-grinding-chutney-jar-stainless-steel-blades-1-year-warranty-whitegrey-llmg45.jpg",
+            "mrp": 2499,
+            "price": 1249,
+            "discount": "50%",
+            "quantity": "(₹1249 / pc)"
+        },
+        
+        {
+            "title": "Portronics SoundDrum 1 TWS Portable Bluetooth Speaker - 10W, Black",
+            "subtitle": "Portronics",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40322440_1-portronics-sounddrum-1-tws-portable-bluetooth-speaker-10w-black.jpg",
+            "mrp": 2499,
+            "price": 899,
+            "discount": "64%",
+            "quantity": "(₹899 / pc)"
+        },
+        
+        {
+            "title": "Zebronics H Zebronics Bluetooth Headphones With Mic - Thunder Pro Black",
+            "subtitle": "Zebronics",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40325600_1-zebronics-h-zebronics-bluetooth-headphones-with-mic-thunder-pro-black.jpg",
+            "mrp": 1899,
+            "price": 849,
+            "discount": "55%",
+            "quantity": "(₹849 / pc)"
+        }
+
+    ],
+    "grocery": [
+        {
+            "title": "fresho! Pomegranate, 1 kg",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/20000708_15-fresho-pomegranate.jpg",
+            "mrp": 261,
+            "price": 209,
+            "discount": "20%",
+            "quantity": "(₹209 / kg)"
+        },
+        {
+            "title": "fresho! Carrot - Orange (Loose), 1 kg",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/10000070_16-fresho-carrot-orange.jpg",
+            "mrp": 104,
+            "price": 43,
+            "discount": "58%",
+            "quantity": "(₹43.5 / kg)"
+        },
+        {
+            "title": "fresho! Ladies' Fingers (Loose), 500 g",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/10000144_14-fresho-ladies-finger.jpg",
+            "mrp": 23,
+            "price": 11,
+            "discount": "53%",
+            "quantity": "(₹0.02 / g)"
+        },
+        {
+            "title": "fresho! Potato, 1 kg",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/10000159_28-fresho-potato.jpg",
+            "mrp": 76,
+            "price": 56,
+            "discount": "27%",
+            "quantity": "(₹56 / kg)"
+        },
+        {
+            "title": "fresho! Banana - Yelakki, 1 kg",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/10000031_22-fresho-banana-yelakki.jpg",
+            "mrp": 95,
+            "price": 70,
+            "discount": "27%",
+            "quantity": "(₹70 / kg)"
+        }
+        
+    ],
+    "teacoffee": [
+        {
+            "title": "emperia Aura Instant Coffee - Chicory Mix, 50 g Pouch",
+            "subtitle": "emperia",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40295682_2-emperia-aura-instant-coffee-chicory-mixture.jpg",
+            "mrp": 89,
+            "price": 85,
+            "discount": "4%",
+            "quantity": "(₹1.7 / g)"
+        },
+        {
+            "title": "Tata Tea Gold Tea, 1.5 kg",
+            "subtitle": "Tata",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40200082_6-tata-tea-gold-tea.jpg",
+            "mrp": 930,
+            "price": 697,
+            "discount": "25%",
+            "quantity": "(₹465 / kg)"
+        },
+        {
+            "title": "Tata Coffee Grand Filter Coffee, 2 x 500 g Multipack",
+            "subtitle": "Tata",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1232549_1-tata-coffee-grand-filter-coffee.jpg",
+            "mrp": 660,
+            "price": 547,
+            "discount": "17%",
+            "quantity": "(₹0.55 / g)"
+        },
+        {
+            "title": "Nescafe Blend Instant Coffee Powder - Rich & Smooth",
+            "subtitle": "Nescafe",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1213594_9-nescafe-blend-instant-coffee-powder-festive-edition-rich-smooth.jpg",
+            "mrp": 2300,
+            "price": 2024,
+            "discount": "12%",
+            "quantity": "(₹5.47 / g)"
+        },
+        {
+            "title": "Bournvita Chocolate Nutrition Drink",
+            "subtitle": "Bournvita",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40269824_7-cadbury-bournvita-chocolate-health-drink-supports-immunity-system.jpg",
+            "mrp": 700,
+            "price": 602,
+            "discount": "14%",
+            "quantity": "(₹0.8 / g)"
+        }
+        
+    ],
+    "household": [
+        {
+            "title": "bb Gooddiet Sugar - Low GI, 2x500 g Multipack",
+            "subtitle": "bb Gooddiet",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1223784_5-bb-gooddiet-33-low-gi-sugar-clinically-tested.jpg",
+            "mrp": 140,
+            "price": 99,
+            "discount": "29%",
+            "quantity": "(₹0.1 / g)"
+        },
+        {
+            "title": "Fortune Sun Lite Refined Sunflower Oil, 3 x 1 L Multipack",
+            "subtitle": "Fortune",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1228371_1-fortune-sun-lite-refined-sunflower-oil.jpg",
+            "mrp": 525,
+            "price": 478,
+            "discount": "15%",
+            "quantity": "(₹159.43 / L)"
+        },   
+        {
+            "title": "Fortune Sun Lite Refined Sunflower Oil, 3 x 1 L Multipack",
+            "subtitle": "Fortune",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1228371_1-fortune-sun-lite-refined-sunflower-oil.jpg",
+            "mrp": 525,
+            "price": 478,
+            "discount": "15%",
+            "quantity": "(₹159.43 / L)"
+        },   
+        {
+            "title": "Aashirvaad Atta - With Multigrains, 10 kg",
+            "subtitle": "Aashirvaad",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40236230_12-aashirvaad-atta-with-multigrains-high-fibre-soft-rotis.jpg",
+            "mrp": 670,
+            "price": 603,
+            "discount": "₹67",
+            "quantity": "(₹60.3 / kg)"
+        }, 
+        {
+            "title": "Tata Sampann Unpolished Toor Dal/Arhar Dal, 2 x 1 kg (Multipack)",
+            "subtitle": "Tata",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1227711_1-tata-sampann-unpolished-toor-dalarhar-dal.jpg",
+            "mrp": 498,
+            "price": 416,
+            "discount": "16%",
+            "quantity": "(₹208 / kg)"
+        },   
+        {
+            "title": "bb Royal Organic - Urad Whole Gota Unpolished, 2 kg",
+            "subtitle": "bb Royal",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1227711_1-tata-sampann-unpolished-toor-dalarhar-dal.jpg",
+            "mrp": 499,
+            "price": 390,
+            "discount": "22%",
+            "quantity": "(₹195 / kg)"
+        }
+    ],
+    "drinks": [
+        {
+            "title": "Coca Cola Soft Drink - Original Taste, 12x750 ml Multipack",
+            "subtitle": "Coca Cola",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1212257_1-coca-cola-soft-drink-original-taste.jpg",
+            "mrp": 480,
+            "price": 384,
+            "discount": "20%",
+            "quantity": "(₹0.04 / ml)"
+        },       
+        {
+            "title": "Coca Cola Diet Coke Soft Drink, 6x300 ml (Multipack)",
+            "subtitle": "Coca Cola",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1200130_9-coca-cola-diet-coke-soft-drink.jpg",
+            "mrp": 240,
+            "price": 200,
+            "discount": "16%",
+            "quantity": "(₹1.5 / ml)"
+        },      
+        {
+            "title": "Paper Boat Aamras Mango Fruit Juice, 12 x 200 ml Multipack",
+            "subtitle": "Paper Boat",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1207000_5-paper-boat-aamras-mango-fruit-juice.jpg",
+            "mrp": 420,
+            "price": 382,
+            "discount": "37%",
+            "quantity": "(₹0.16 / ml)"
+        }, 
+        {
+            "title": "Sprite Soft Drink - Lime Flavoured, 2 x 2.25 L (Multipack)",
+            "subtitle": "Sprite",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1223242_1-sprite-soft-drink-lime-flavoured.jpg",
+            "mrp": 198,
+            "price": 186,
+            "discount": "12%",
+            "quantity": "(₹41.33 / L)"
+        },
+        {
+            "title": "Schweppes Soda - Original Ginger Ale, 6x300 ml Multipack",
+            "subtitle": "Schweppes",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1208190_1-schweppes-soda-original-ginger-ale.jpg",
+            "mrp": 360,
+            "price": 330,
+            "discount": "7%",
+            "quantity": "(₹0.18 / ml)"
+        }      
+    ]
+}
