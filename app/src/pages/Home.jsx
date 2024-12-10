@@ -1,9 +1,28 @@
+import { useState } from "react"
 import {Slideslow, SecondSlideslow, CategoryButton, Dropdown, Promos, About} from "../components"
 import {top, bottom} from "../data/slideslow.json"
-import {CustomProducts} from "../components/category"
-import { Link } from "react-router-dom"
+import {CustomProducts, Drinks, Electronics, Grocery, Household, TeaAndCoffee} from "../components/category"
+import {Link} from "react-router-dom"
 
 function Home() {
+  const [selectedCategory, setSelectedCategory] = useState(null);
+
+  const renderCategoryComponent = () => {
+    switch (selectedCategory) {
+      case "Electronics":
+        return <Electronics />;
+      case "Grocery":
+        return <Grocery />;
+      case "Beverages":
+        return <TeaAndCoffee />;
+      case "Household":
+        return <Household />;
+      case "Drinks":
+        return <Drinks />;
+      default:
+        return <CustomProducts />;
+    }
+  };
 
   return (
     <main className="">
@@ -15,21 +34,27 @@ function Home() {
               <Dropdown />
               <div className="hidden lg:flex items-center gap-x-1 lg:gap-x-2 xl:gap-x-5">
                 <span className="font-bold">Shop by Categories:</span>
-                <Link to={"/products/electronics"}>
-                  <CategoryButton buttonText={"Electronics"}/>
-                </Link>
-                <Link to={"/products/grocery"}>
-                  <CategoryButton buttonText={"Grocery"}/>
-                </Link>
-                <Link to={"/products/teacoffee"}>
-                  <CategoryButton buttonText={"Beverages"}/>
-                </Link>
-                <Link to={"/products/household"}>
-                  <CategoryButton buttonText={"Household"}/>
-                </Link>
-                <Link to={"/products/drinks"}>
-                  <CategoryButton buttonText={"Drinks"}/>
-                </Link>
+                
+                  <CategoryButton buttonText={"Electronics"}
+                  clickHandler={() => setSelectedCategory("Electronics")}
+                  />
+                
+                  <CategoryButton buttonText={"Grocery"}
+                  clickHandler={() => setSelectedCategory("Grocery")}
+                  />
+                
+                  <CategoryButton buttonText={"Beverages"}
+                  clickHandler={() => setSelectedCategory("Beverages")}
+                  />
+                
+                  <CategoryButton buttonText={"Household"}
+                  clickHandler={() => setSelectedCategory("Household")}
+                  />
+                
+                  <CategoryButton buttonText={"Drinks"}
+                  clickHandler={() => setSelectedCategory("Drinks")}
+                  />
+                
               </div>
               <div className="flex items-center">
                 <Link to={"/products"}>
@@ -38,7 +63,9 @@ function Home() {
               </div>
             </div>
           </div>
-          <CustomProducts />
+          <div>
+            {renderCategoryComponent()}
+          </div>
         </div>
 
         <Promos />
