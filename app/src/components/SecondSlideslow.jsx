@@ -14,7 +14,7 @@ function SecondSlideslow({data}) {
     }, [])
 
   return (
-    <div className='overflow-hidden px-5'>
+    <div className='overflow-hidden py-20'>
         <div 
         className='h-[100px] bg-cover bg-center rounded-xl md:h-[200px] lg:h-[300px] 2xl:h-[400px] flex items-center justify-between md:justify-center md:items-end'
         style={{backgroundImage: `url(${photos[index]})`}}
