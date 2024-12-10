@@ -4,7 +4,7 @@ import {drinks} from "../../data/products.json"
 
 function Drinks() {
   return (
-    <ProductCategory category={drinks} title={"Beverages"} unique={'d'}/>
+    <ProductCategory category={drinks} title={"Drinks"} unique={'d'}/>
   )
 }
 
