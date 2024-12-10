@@ -1,7 +1,7 @@
 {
     "electronics": [
         {
-            "title": "Prestige Electric Kettle PKOSS 1.5, 1500 W - Silver, Stainless Steel, 1.5 L",
+            "title": "Prestige Electric Kettle PKOSS, 1500 W, Stainless Steel, 1.5 L",
             "subtitle": "Prestige",
             "png": "https://www.bigbasket.com/media/uploads/p/l/40317740_3-prestige-stainless-steel-kettle-pkoss-silver-black.jpg",
             "mrp": 1445,
@@ -29,7 +29,7 @@
         },
         
         {
-            "title": "Portronics SoundDrum 1 TWS Portable Bluetooth Speaker - 10W, Black",
+            "title": "Portronics SoundDrum, Bluetooth Speaker - 10W",
             "subtitle": "Portronics",
             "png": "https://www.bigbasket.com/media/uploads/p/l/40322440_1-portronics-sounddrum-1-tws-portable-bluetooth-speaker-10w-black.jpg",
             "mrp": 2499,
@@ -39,13 +39,22 @@
         },
         
         {
-            "title": "Zebronics H Zebronics Bluetooth Headphones With Mic - Thunder Pro Black",
+            "title": "Zebronics H Zebronics Bluetooth Headphones With Mic",
             "subtitle": "Zebronics",
             "png": "https://www.bigbasket.com/media/uploads/p/l/40325600_1-zebronics-h-zebronics-bluetooth-headphones-with-mic-thunder-pro-black.jpg",
             "mrp": 1899,
             "price": 849,
             "discount": "55%",
             "quantity": "(₹849 / pc)"
+        },
+        {
+            "title": "Sandisk 256GB Type C Dual Drive, 1 pc",
+            "subtitle": "Sandisk",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40326435_1-sandisk-256gb-type-c-dual-drive.jpg",
+            "mrp": 3300,
+            "price": 1449,
+            "discount": "56%",
+            "quantity": "(₹1449 / pc)"
         }
 
     ],
@@ -94,7 +103,16 @@
             "price": 70,
             "discount": "27%",
             "quantity": "(₹70 / kg)"
-        }
+        },
+        {
+            "title": "fresho! Orange - Nagpur, Regular (Loose), 500 g",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/10000267_25-fresho-orange-nagpur-regular.jpg",
+            "mrp": 34,
+            "price": 21,
+            "discount": "39%",
+            "quantity": "(₹0.04 / g)"
+        }   
         
     ],
     "teacoffee": [
@@ -142,6 +160,15 @@
             "price": 602,
             "discount": "14%",
             "quantity": "(₹0.8 / g)"
+        },
+        {
+            "title": "Boost Chocolate Nutrition Drink Refill Pack, 2 x 750 g Multipack",
+            "subtitle": "Boost",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1215809_3-boost-nutrition-drink-health-energy-sports.jpg",
+            "mrp": 938,
+            "price": 778,
+            "discount": "17%",
+            "quantity": "(₹0.52 / g)"
         }
         
     ],
@@ -155,15 +182,6 @@
             "discount": "29%",
             "quantity": "(₹0.1 / g)"
         },
-        {
-            "title": "Fortune Sun Lite Refined Sunflower Oil, 3 x 1 L Multipack",
-            "subtitle": "Fortune",
-            "png": "https://www.bigbasket.com/media/uploads/p/l/1228371_1-fortune-sun-lite-refined-sunflower-oil.jpg",
-            "mrp": 525,
-            "price": 478,
-            "discount": "15%",
-            "quantity": "(₹159.43 / L)"
-        },   
         {
             "title": "Fortune Sun Lite Refined Sunflower Oil, 3 x 1 L Multipack",
             "subtitle": "Fortune",
@@ -192,13 +210,22 @@
             "quantity": "(₹208 / kg)"
         },   
         {
-            "title": "bb Royal Organic - Urad Whole Gota Unpolished, 2 kg",
+            "title": "bb Royal Organic - Toor Dal/Togari Bele, 5 kg",
             "subtitle": "bb Royal",
-            "png": "https://www.bigbasket.com/media/uploads/p/l/1227711_1-tata-sampann-unpolished-toor-dalarhar-dal.jpg",
-            "mrp": 499,
-            "price": 390,
-            "discount": "22%",
-            "quantity": "(₹195 / kg)"
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40135858_8-bb-royal-organic-turtoor-dal.jpg",
+            "mrp": 1449,
+            "price": 1009,
+            "discount": "30%",
+            "quantity": "(₹201 / kg)"
+        },
+        {
+            "title": "fresho! Pure Ghee, 2x1 L Multipack",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1212854_1-fresho-pure-ghee.jpg",
+            "mrp": 1600,
+            "price": 1379,
+            "discount": "14%",
+            "quantity": "(₹689 / L)"
         }
     ],
     "drinks": [
@@ -246,6 +273,15 @@
             "price": 330,
             "discount": "7%",
             "quantity": "(₹0.18 / ml)"
+        },
+        {
+            "title": "Real Fruit Juice - Cranberry, Rich In Vitamin C, 6 x 1 L Multipack",
+            "subtitle": "Real",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1223102_1-real-fruit-power-juice-cranberry-rich-in-vitamin-c.jpg",
+            "mrp": 840,
+            "price": 739,
+            "discount": "12%",
+            "quantity": "(₹123.2 / L)"
         }      
     ]
 }
