@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className="w-full">
-      <div className="w-full bg-white shadow-lg sticky top-0">
+      <div className="w-full bg-white shadow-lg sticky top-0 mb-10">
         <Header />
       </div>
       
