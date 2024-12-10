@@ -1,0 +1,58 @@
+{
+    "custom": [
+        {
+            "title": "Duracell Ultra Alkaline AA Batteries, 4 pcs",
+            "subtitle": "Duracell",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/240100_10-duracell-ultra-alkaline-battery-aa.jpg",
+            "mrp": 190,
+            "price": 160,
+            "discount": "16%",
+            "quantity": "(₹40 / pc)"
+        },
+        {
+            "title": "fresho! Pomegranate, 1 kg",
+            "subtitle": "fresho!",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/20000708_15-fresho-pomegranate.jpg",
+            "mrp": 261,
+            "price": 209,
+            "discount": "20%",
+            "quantity": "(₹209 / kg)"
+        },
+        {
+            "title": "Nescafe Blend Instant Coffee Powder - Rich & Smooth",
+            "subtitle": "Nescafe",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1213594_9-nescafe-blend-instant-coffee-powder-festive-edition-rich-smooth.jpg",
+            "mrp": 2300,
+            "price": 2024,
+            "discount": "12%",
+            "quantity": "(₹5.47 / g)"
+        },
+        {
+            "title": "Aashirvaad Atta - With Multigrains, 10 kg",
+            "subtitle": "Aashirvaad",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40236230_12-aashirvaad-atta-with-multigrains-high-fibre-soft-rotis.jpg",
+            "mrp": 670,
+            "price": 603,
+            "discount": "₹67",
+            "quantity": "(₹60.3 / kg)"
+        }, 
+        {
+            "title": "Coca Cola Diet Coke Soft Drink, 6x300 ml (Multipack)",
+            "subtitle": "Coca Cola",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/1200130_9-coca-cola-diet-coke-soft-drink.jpg",
+            "mrp": 240,
+            "price": 200,
+            "discount": "16%",
+            "quantity": "(₹1.5 / ml)"
+        },
+        {
+            "title": "Bournvita Chocolate Nutrition Drink",
+            "subtitle": "Bournvita",
+            "png": "https://www.bigbasket.com/media/uploads/p/l/40269824_7-cadbury-bournvita-chocolate-health-drink-supports-immunity-system.jpg",
+            "mrp": 700,
+            "price": 602,
+            "discount": "14%",
+            "quantity": "(₹0.8 / g)"
+        }  
+    ]
+}
