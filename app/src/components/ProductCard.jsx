@@ -16,11 +16,11 @@ function ProductCard({product}) {
         <span className='text-[#6dcd4a] text-xs'>You Save: <span className='font-bold'>{product.discount} OFF</span></span>
         <span className='text-[#5c5a5a] text-xs'>(Incl. of all taxes)</span>
       </div>
-      <div className='flex gap-x-10 pt-5'>
-        <div className='outline outline-gray-200 outline-1 cursor-pointer rounded-sm hover:outline-gray-900'>
-          <img src="/save-svgrepo-com.svg" className='w-10 '/>
+      <div className='flex justify-between pt-5'>
+        <div className='flex items-center outline outline-gray-200  outline-1 cursor-pointer rounded-sm hover:outline-gray-900'>
+          <img src="/save-svgrepo-com.svg" className='w-10'/>
         </div>
-        <button className='font-semibold outline outline-[#F61B2C] outline-1 text-[#F61B2C] px-20 py-2 rounded-md hover:bg-[#F61B2C] hover:text-white transition-all ease-in-out'>
+        <button className='font-semibold outline outline-[#F61B2C] outline-1 text-[#F61B2C] px-16 sm:px-20 md:px-24 py-2 rounded-md hover:bg-[#F61B2C] hover:text-white transition-all ease-in-out'>
           Add
         </button>
       </div>
