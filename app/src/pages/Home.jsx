@@ -5,6 +5,8 @@ import {CustomProducts} from "../components/category"
 import { Link } from "react-router-dom"
 import CategoryButton from "../components/CategoryButton"
 import Dropdown from "../components/Dropdown"
+import Promos from "../components/Promos"
+import About from "../components/About"
 
 function Home() {
 
@@ -44,11 +46,9 @@ function Home() {
           <CustomProducts />
         </div>
 
-        <div className="py-20">
-            Cards
-        </div>
-
+        <Promos />
         <SecondSlideslow data={bottom}/>
+        <About />
     </main>
   )
 }
