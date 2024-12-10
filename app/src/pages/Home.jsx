@@ -1,12 +1,7 @@
-import Slideslow from "../components/Slideslow"
-import SecondSlideslow from "../components/SecondSlideslow"
+import {Slideslow, SecondSlideslow, CategoryButton, Dropdown, Promos, About} from "../components"
 import {top, bottom} from "../data/slideslow.json"
 import {CustomProducts} from "../components/category"
 import { Link } from "react-router-dom"
-import CategoryButton from "../components/CategoryButton"
-import Dropdown from "../components/Dropdown"
-import Promos from "../components/Promos"
-import About from "../components/About"
 
 function Home() {
 
