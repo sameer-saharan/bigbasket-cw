@@ -2,8 +2,9 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import {Route, RouterProvider, createBrowserRouter, createRoutesFromElements} from "react-router-dom"
-import Home from './pages/Home.jsx'
-import Products from './pages/Products.jsx'
+import {Home, Products} from "./pages"
+import { store } from './store/store.js'
+import {Provider} from "react-redux"
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -13,5 +14,8 @@ const router = createBrowserRouter(
     </Route>
 ))
 createRoot(document.getElementById('root')).render(
-  <RouterProvider router={router} />
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
+  
 )
