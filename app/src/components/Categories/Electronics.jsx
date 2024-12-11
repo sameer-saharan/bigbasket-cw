@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCategory from '../ProductCategory'
+import ProductCategory from '../Product/ProductCategory'
 import {electronics} from "../../data/products.json"
 
 function Electronics() {

@@ -1,6 +1,6 @@
 import React from 'react'
 import {custom} from "../../data/custom.json"
-import ProductCategory from "../../components/ProductCategory"
+import ProductCategory from "../Product/ProductCategory"
 
 function CustomProducts() {
   return (

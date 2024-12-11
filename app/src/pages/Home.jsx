@@ -1,4 +1,3 @@
-import { useState } from "react"
 import {Slideslow, SecondSlideslow, CategoryButton, Dropdown, Promos, About} from "../components"
 import {top, bottom} from "../data/slideslow.json"
 import {Link} from "react-router-dom"

@@ -1,6 +1,6 @@
 import React from 'react'
-import {topOffers, fruitAndVeg, yourDailyStaples, beverages, snacksStore, cleaningAndHouse, beautyAndHygine, homeAndKitchen} from "../data/cards.json";
-import PromoCards from "../components/cards/PromoCards"
+import {topOffers, fruitAndVeg, yourDailyStaples, beverages, snacksStore, cleaningAndHouse, beautyAndHygine, homeAndKitchen} from "../../data/cards.json";
+import PromoCards from "./PromoCards"
 
 function Promos() {
   return (

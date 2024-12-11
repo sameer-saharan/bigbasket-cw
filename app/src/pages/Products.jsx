@@ -1,6 +1,6 @@
 import React from 'react'
-import {Electronics, Grocery, TeaAndCoffee, Household, Drinks} from "../components/category"
-import { Slideslow } from '../components'
+import {Electronics, Grocery, TeaAndCoffee, Household, Drinks} from "../components/Categories"
+import {Slideslow}  from '../components'
 import {top} from "../data/slideslow.json"
 
 function Products() {
