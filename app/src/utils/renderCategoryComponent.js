@@ -1,5 +1,5 @@
 import React from "react";
-import {CustomProducts, Drinks, Electronics, Grocery, Household, TeaAndCoffee} from "../components/category"
+import {CustomProducts, Drinks, Electronics, Grocery, Household, TeaAndCoffee} from "../components/Categories"
 
 export const renderCategoryComponent = (selectedCategory) => {
     switch (selectedCategory) {
