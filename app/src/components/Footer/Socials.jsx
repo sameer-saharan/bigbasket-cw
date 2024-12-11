@@ -2,7 +2,7 @@ import React from "react";
 
 function Socials() {
   return (
-    <div className="flex lg:gap-x-4 xl:gap-x-9 mb-6">
+    <div className="flex justify-evenly sm:gap-x-5 lg:gap-x-10 px-5">
       <a
         href="https://www.facebook.com/pages/Bigbasketcom/139311472851666"
         data-button="facebook"
