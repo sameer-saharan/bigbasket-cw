@@ -1,6 +1,6 @@
 ## BigBasket Clone (Frontend Only)
 
-This is a **frontend-only** clone of BigBasket's homepage, built using React. The project focuses on recreating the visual and functional elements of the homepage with basic interactivity. It uses modern web technologies like **TailwindCSS**, **Redux Toolkit**, and **React Router**.
+This is a **frontend-only** clone of BigBasket's homepage, built using React. The project focuses on recreating the visuals of the homepage with basic interactivity.
 
 ---
 
@@ -13,7 +13,7 @@ This is a **frontend-only** clone of BigBasket's homepage, built using React. Th
 
 ---
 
-### Info
+### More Info
 
 - *Visit the <a href="https://github.com/sameer-saharan/bigbasket-cw/tree/main/app">`app`</a> directory for Files and Components overview*
 
