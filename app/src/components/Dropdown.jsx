@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
-import { Link } from 'react-router-dom';
 import CategoryButton from './CategoryButton';
+import { useSelector, useDispatch } from 'react-redux';
+import { setSelectedCategory } from '../store/categorySlice';
 
 function Dropdown() {
     const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +10,12 @@ function Dropdown() {
         setIsOpen(!isOpen);
     };
 
+    const selectedCategory = useSelector((state) => state.selectedCategory);
+    const dispatch = useDispatch();
+
+
   return (
-    <div className='lg:hidden relative'>
+    <div className='lg:hidden '>
         <div className='flex items-center gap-x-2'>
             <button
             onClick={toggleDropdown}
@@ -25,24 +30,28 @@ function Dropdown() {
         </div>
 
         {isOpen && (
-            <div className="absolute w-1/2 min-w-52 bg-white border border-gray-300 rounded-md shadow-lg px-5 py-4 z-50">
+            <div className="absolute w-1/2 min-w-52 bg-white border border-gray-300 rounded-md shadow-lg mt-4 px-5 py-4 z-50">
                 <span className="font-bold ">Shop by Categories:</span>
                 <div className='flex flex-col gap-y-2 pt-4'>
-                    <Link to={"/products/electronics"}>
-                    <CategoryButton buttonText={"Electronics"}/>
-                    </Link>
-                    <Link to={"/products/grocery"}>
-                    <CategoryButton buttonText={"Grocery"}/>
-                    </Link>
-                    <Link to={"/products/teacoffee"}>
-                    <CategoryButton buttonText={"Beverages"}/>
-                    </Link>
-                    <Link to={"/products/household"}>
-                    <CategoryButton buttonText={"Household"}/>
-                    </Link>
-                    <Link to={"/products/drinks"}>
-                    <CategoryButton buttonText={"Drinks"}/>
-                    </Link>
+                  <CategoryButton buttonText={"Electronics"}
+                  clickHandler={() => {dispatch(setSelectedCategory("Electronics")); setIsOpen(false);}}
+                  />
+                
+                  <CategoryButton buttonText={"Grocery"}
+                  clickHandler={() => {dispatch(setSelectedCategory("Grocery")); setIsOpen(false);}}
+                  />
+                
+                  <CategoryButton buttonText={"Beverages"}
+                  clickHandler={() => {dispatch(setSelectedCategory("Beverages")); setIsOpen(false);}}
+                  />
+                
+                  <CategoryButton buttonText={"Household"}
+                  clickHandler={() => {dispatch(setSelectedCategory("Household")); setIsOpen(false);}}
+                  />
+                
+                  <CategoryButton buttonText={"Drinks"}
+                  clickHandler={() => {dispatch(setSelectedCategory("Drinks")); setIsOpen(false);}}
+                  />
                 </div>
                
             </div>
