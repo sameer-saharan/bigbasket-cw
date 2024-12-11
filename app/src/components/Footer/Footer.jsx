@@ -52,10 +52,10 @@ function Footer() {
         </div>
       </div>
       <div className='flex items-center justify-center gap-x-2 py-5 text-mono font-semibold bg-[#0F0D0E] '>
-          <a href="https://github.com/sameer-saharan/bigbasket-cw/app">
+          <a href="https://github.com/sameer-saharan/bigbasket-cw/">
             <img src="/github-svgrepo-com.svg" className='w-8'/>
           </a>
-          <a href="https://github.com/sameer-saharan/bigbasket-cw/app"
+          <a href="https://github.com/sameer-saharan/bigbasket-cw/"
           className='cursor-pointer text-white hover:text-[#A0CD4A]'
           >
             @sameersaharan
