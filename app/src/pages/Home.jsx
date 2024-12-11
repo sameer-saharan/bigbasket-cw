@@ -1,28 +1,15 @@
 import { useState } from "react"
 import {Slideslow, SecondSlideslow, CategoryButton, Dropdown, Promos, About} from "../components"
 import {top, bottom} from "../data/slideslow.json"
-import {CustomProducts, Drinks, Electronics, Grocery, Household, TeaAndCoffee} from "../components/category"
 import {Link} from "react-router-dom"
+import {renderCategoryComponent} from "../utils/renderCategoryComponent"
+import {useSelector, useDispatch} from "react-redux"
+import {setSelectedCategory, clearCategory} from "../store/categorySlice"
 
 function Home() {
-  const [selectedCategory, setSelectedCategory] = useState(null);
-
-  const renderCategoryComponent = () => {
-    switch (selectedCategory) {
-      case "Electronics":
-        return <Electronics />;
-      case "Grocery":
-        return <Grocery />;
-      case "Beverages":
-        return <TeaAndCoffee />;
-      case "Household":
-        return <Household />;
-      case "Drinks":
-        return <Drinks />;
-      default:
-        return <CustomProducts />;
-    }
-  };
+  const selectedCategory = useSelector((state) => state.selectedCategory)
+  const dispatch = useDispatch();
+  const SelectedCategoryComponent = renderCategoryComponent(selectedCategory);
 
   return (
     <main className="">
@@ -36,23 +23,23 @@ function Home() {
                 <span className="font-bold">Shop by Categories:</span>
                 
                   <CategoryButton buttonText={"Electronics"}
-                  clickHandler={() => setSelectedCategory("Electronics")}
+                  clickHandler={() => dispatch(setSelectedCategory("Electronics"))}
                   />
                 
                   <CategoryButton buttonText={"Grocery"}
-                  clickHandler={() => setSelectedCategory("Grocery")}
+                  clickHandler={() => dispatch(setSelectedCategory("Grocery"))}
                   />
                 
                   <CategoryButton buttonText={"Beverages"}
-                  clickHandler={() => setSelectedCategory("Beverages")}
+                  clickHandler={() => dispatch(setSelectedCategory("Beverages"))}
                   />
                 
                   <CategoryButton buttonText={"Household"}
-                  clickHandler={() => setSelectedCategory("Household")}
+                  clickHandler={() => dispatch(setSelectedCategory("Household"))}
                   />
                 
                   <CategoryButton buttonText={"Drinks"}
-                  clickHandler={() => setSelectedCategory("Drinks")}
+                  clickHandler={() => dispatch(setSelectedCategory("Drinks"))}
                   />
                 
               </div>
@@ -64,7 +51,7 @@ function Home() {
             </div>
           </div>
           <div>
-            {renderCategoryComponent()}
+            <SelectedCategoryComponent />
           </div>
         </div>
 
