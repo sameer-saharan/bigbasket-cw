@@ -56,7 +56,7 @@ function Footer() {
             <img src="/github-svgrepo-com.svg" className='w-8'/>
           </a>
           <a href="https://github.com/sameer-saharan/bigbasket-cw/"
-          className='cursor-pointer text-white hover:text-[#A0CD4A]'
+          className='cursor-pointer text-white hover:text-[#A0CD4A] transition-all ease-in-out'
           >
             @sameersaharan
           </a>
