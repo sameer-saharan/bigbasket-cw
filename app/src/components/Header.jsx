@@ -1,11 +1,14 @@
 import React, {useState, useRef} from 'react'
+import {Link} from "react-router-dom"
 
 function Header() {
   const [inputText, setInputText] = useState("");
 
   return (
     <div className='flex mx-auto max-w-screen-sm flex-col items-center gap-y-5 p-5 sticky top-0 md:flex-row md:justify-between responsive'>
-      <img src="/BigBasket_Logo.svg" className='w-28'/>
+      <Link to={"/"}>
+        <img src="/BigBasket_Logo.svg" className='w-28'/>
+      </Link>
       <div className='flex justify-between px-2 border border-[#A0CD4A] rounded-lg md:w-1/2'>
         <div className='flex items-center'>
           <img src="/search-alt-1-svgrepo-com.svg" className='w-5'/>
